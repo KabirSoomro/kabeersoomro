@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="por.css">
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <h1>Loading...</h1>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="typing"></span></h1>
+                <p>Web Developer | Designer | Creative Thinker</p>
+                <p>Welcome to my portfolio!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="img.jpeg" alt="Your Photo">
+                <div>
+                    <p>Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and more. I love creating interactive and beautiful websites. Here's a bit about me: [Your Bio Here].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Expert in semantic markup.</p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Styling and animations.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Interactive functionality.</p>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <p>Modern frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                    <a href="#">View Live</a>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                    <a href="#">View Live</a>
+                </div>
+                <div class="project">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3.</p>
+                    <a href="#">View Live</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="from_email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <!-- Social Links -->
+            <div class="social-links">
+                <h3>Connect with Me Directly</h3>
+                <a href="https://www.facebook.com/Kabeer_Soomro" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a> <!-- Replace with your Facebook profile URL -->
+                <a href="https://wa.me/923168465697" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a> <!-- Replace 1234567890 with your phone number -->
+                <a href="https://www.instagram.com/Kabeer_Soomro" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a> <!-- Replace with your Instagram profile URL -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/Kabeer_Soomro" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/923168465697" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/Kabeer_Soomro" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="por.js"></script>
+</body>
+</html>
